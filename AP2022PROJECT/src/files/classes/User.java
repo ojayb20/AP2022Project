@@ -1,4 +1,4 @@
-package files.regularclass;
+package files.classes;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

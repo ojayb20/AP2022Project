@@ -13,7 +13,11 @@ import java.security.spec.InvalidKeySpecException;
 import java.sql.*;
 
 public class LoginPage extends JFrame {
-    private static final Logger LOGGER = LogManager.getLogger(LoginPage.class);
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private static final Logger LOGGER = LogManager.getLogger(LoginPage.class);
     public LoginPage() {
         initComponents();
     }

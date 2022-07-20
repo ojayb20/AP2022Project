@@ -2,8 +2,6 @@ package files.gui;
 
 import files.client.Client;
 import files.database.Database;
-import files.regularclass.Complaint;
-import files.regularclass.User;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -12,6 +10,9 @@ import java.awt.*;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+
+import files.classes.Complaint;
+import files.classes.User;
 
 public class RepresentativeDashboard extends JFrame {
     private static final Logger LOGGER = LogManager.getLogger(RepresentativeDashboard.class);

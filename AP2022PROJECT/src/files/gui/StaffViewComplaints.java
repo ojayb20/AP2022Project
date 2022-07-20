@@ -1,6 +1,6 @@
 package files.gui;
 
-import files.regularclass.Complaint;
+import files.classes.Complaint;
 
 import javax.swing.*;
 import java.awt.*;

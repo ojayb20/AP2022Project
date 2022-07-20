@@ -1,11 +1,19 @@
 package files.gui;
 
-import files.regularclass.Complaint;
 
-import javax.swing.*;
-import java.awt.*;
+
+import java.awt.Font;
 import java.sql.SQLException;
 import java.util.ArrayList;
+
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.WindowConstants;
+
+import files.classes.Complaint;
+
 
 public class ViewComplaintsForCustomer extends JFrame {
     ArrayList<Complaint> complaints;

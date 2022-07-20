@@ -1,7 +1,7 @@
 package files.gui;
 
 import files.database.Database;
-import files.regularclass.Complaint;
+import files.classes.Complaint;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
