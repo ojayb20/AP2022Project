@@ -18,7 +18,7 @@ public class Server {
 
     public static void main(String[] args) {
 
-        int portNumber = 4444;
+        int portNumber = 1234;
 
         System.out.println("Server started.\n"
                 + "Now using port number=" + portNumber);
@@ -26,7 +26,7 @@ public class Server {
 
         try {
             serverSocket = new ServerSocket(portNumber);
-            LOGGER.info("Server connected to port 4444");
+            LOGGER.info("Server connected to port 1234");
         } catch (IOException e) {
             LOGGER.fatal("An error occurred while trying to connect to the server.");
             e.printStackTrace();
